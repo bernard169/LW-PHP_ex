@@ -1,11 +1,31 @@
 <!doctype html>
 <html>
 	<head>
-		<title>exoPHP</title>
-	<meta charset="UTF-8">
-</head>
+        <title>exoPHP</title>
+        <link rel="stylesheet" href = "style.css"/>
+	    <meta charset="UTF-8">
+    </head>
 
-<body>
+    <body>
+        <h1>Données personnelles</h1>
+        <!--liens = <a href="https://openclassrooms.com">OpenClassrooms</a>-->
 
-</body>
+        <div class="cont_forms">
+            <form method="POST" action ="admin.php">
+                <label for="prenom">Votre prénom</label> <input type="text" name="prenom" id="prenom" placeholder="Ex : Hubert" required/>
+            </form>
+            <form method="POST" action ="admin.php">
+                <label for="nom">Votre nom</label> <input type="text" name="nom" id="nom" placeholder="Ex : Bonisseur de La Bath" required/>
+            </form>
+                    
+                    
+            
+        </div>
+
+        <div class="cont_buttons">
+            <button id="next_page">Page suivante</button>
+            <button id="cancel">Annuler</button>
+        </div>
+
+    </body>
 </html>

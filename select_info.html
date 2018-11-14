@@ -1,12 +1,24 @@
 <!doctype html>
 <html>
 	<head>
-        <title>exoPHP select info</title>
+        <title>exoPHP select formations</title>
         <link rel="stylesheet" href = "style.css"/>
 	<meta charset="UTF-8">
 </head>
 
 <body>
-
+    <h1>Sélection des formations</h1>
+    
+    <div class="cont_forms">
+            <form method="POST" action ="admin.php">
+                <p>
+                    <input type="checkbox" name="foPHP" id="foPHP"/> <label for="foPHP">Formation PHP : 250€</label> </br>
+                    <input type="checkbox" name="foXML" id="foXML"/> <label for="foXML">Formation XML : 350€</label> </br>
+                    <input type="checkbox" name="foJAVA" id="foJAVA"/> <label for="foJAVA">Formation JAVA : 450€</label> </br>
+                    <input type="checkbox" name="foC++" id="foC++"/> <label for="foC++">Formation C++ : 550€</label> </br>
+                </p>
+                <input type="submit" value="Envoyer" id="submitForm"/>
+            </form>
+    </div>
 </body>
 </html>
