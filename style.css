@@ -25,34 +25,36 @@ button
     padding-bottom: 1%;
     border-radius: 5px;
     overflow: auto;
+    margin-top: 5%;
 }
 .cont_forms
 {
     display: flex;
     flex-direction: column;
+    align-items : center;
     justify-content: space-around;
-    align-content: center;
     vertical-align: center;
     font-size: 20px;
 }
+
 .cont_buttons
 {
     display: flex;
     flex-direction: row;
     flex-wrap : wrap;
     justify-content: space-around;
-    vertical-align: bottom;
+    align-items: baseline;
 }
 :invalid
 {
-    color: red;
+    color : red;
 }
-#submitForm
+input[type="submit"]
 {
+    align-self: center;
     font-size: 25px;
-    text-align: center;
     box-shadow : 1px 1px 8px black inset;
-    width:10%;
+    width: 50%;
     height:3%;
     padding-top: 1%;
     padding-bottom: 1%;
